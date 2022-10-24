@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+		<link rel="stylesheet" href="./styles/fontello.css">
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <nav>
+      <h1 class="main-name">PalaExbo</h1>
+      <h1 class="main-status">Accedere</h1>
+      <button id="themeModeBtn"><i class="icon-lightbulb"></i></button>
+    </nav>
+    <section class="container">
+      <main>
+        <label>
+          <input
+            type="radio"
+            name="user-type"
+            value="waiter"
+            class="real-radio-btn"
+          />
+          <span class="fake-radio-btn">
+            <img src="./img/avatar_bw-waiter.png" alt="" />
+          </span>
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="user-type"
+            value="admin"
+            class="real-radio-btn"
+          />
+          <span class="fake-radio-btn">
+            <img src="./img/avatar_bw-admin.png" alt="" />
+          </span>
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="user-type"
+            value="cook"
+            class="real-radio-btn"
+          />
+          <span class="fake-radio-btn"
+            ><img src="./img/avatar_bw-cook.png" alt=""
+          /></span>
+        </label>
+      </main>
+      <section>
+        <form action="">
+          <input type="password" maxlength="20" />
+          <button>Entrare</button>
+        </form>
+      </section>
+    </section>
+
+    <script defer src="./js/scripts.js"></script>
+  </body>
+</html>
